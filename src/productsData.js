@@ -2,8 +2,8 @@ export const GAZETTE = 'SO:3922(E), Dated: 12th September ,2024';
 
 export const PRODUCTS = [
   { 
-    brand: 'AMBA HUMATE 49% P',
-    displayName: 'AMBA HUMATE 49% P',
+    brand: 'KG1-Kaveri Gold',
+    displayName: 'KG1-Kaveri Gold',
     specification: 'Potassium Humate 49% (Powder)', 
     category: 'Humic Acid and Fulvic Acid and Derivatives',
     crops: ['Paddy'], 
@@ -15,8 +15,8 @@ export const PRODUCTS = [
     ] 
   },
   {
-    brand: 'AMBA HUMI 51% G',
-    displayName: 'AMBA HUMI 51% G',
+    brand: 'KG1-Multi Granules',
+    displayName: 'KG1-Multi Granules',
     specification: 'Humic Acid 51% (Granular)',
     category: 'Humic Acid and Fulvic Acid and Derivatives',
     crops: ['Green gram'],
@@ -30,8 +30,8 @@ export const PRODUCTS = [
     ]
   },
   {
-    brand: 'AMBA HUMI & FULI 76%P',
-    displayName: 'AMBA HUMI & FULI 76%P',
+    brand: 'KG1-Magic',
+    displayName: 'KG1-Magic',
     specification: 'Humic and Fulvic Acid 76% (Powder)',
     category: 'Humic Acid and Fulvic Acid and Derivatives',
     crops: ['Tomato'],
@@ -47,8 +47,8 @@ export const PRODUCTS = [
     ]
   },
   {
-    brand: 'AMBA HUMALITE 82% P',
-    displayName: 'AMBA HUMALITE 82% P',
+    brand: 'KG1-HUMI Pro',
+    displayName: 'KG1-HUMI Pro',
     specification: 'Humalite 82% (Powder)',
     category: 'Humic Acid and Fulvic Acid and Derivatives',
     crops: ['Paddy'],
@@ -64,8 +64,8 @@ export const PRODUCTS = [
     ]
   },
   {
-    brand: 'AMBA HUMI & FULI 85% P',
-    displayName: 'AMBA HUMI & FULI 85% P',
+    brand: 'KG1-Green Max',
+    displayName: 'KG1-Green Max',
     specification: 'Humic Acid and Fulvic Acid 85% (Powder)',
     category: 'Humic Acid and Fulvic Acid and Derivatives',
     crops: ['Tomato'],
@@ -79,8 +79,8 @@ export const PRODUCTS = [
     ]
   },
   {
-    brand: 'AMBA HUMI-40%P',
-    displayName: 'AMBA HUMI-40%P',
+    brand: 'KG1-Power King',
+    displayName: 'KG1-Power King',
     specification: 'Humic Acids 40% (Powder)',
     category: 'Humic Acid and Fulvic Acid and Derivatives',
     crops: ['Soybean', 'Paddy'],
@@ -98,8 +98,8 @@ export const PRODUCTS = [
     ]
   },
   {
-    brand: 'AMBA HUMI & FULI 25%-L',
-    displayName: 'AMBA HUMI & FULI 25%-L',
+    brand: 'KG1-Power Plus',
+    displayName: 'KG1-Power Plus',
     specification: 'Humic and Fulvic acid 25.05% (Liquid)',
     category: 'Humic Acid and Fulvic Acid and Derivatives',
     crops: ['Tomato'],
@@ -112,8 +112,8 @@ export const PRODUCTS = [
     ]
   },
   {
-    brand: 'AMBA MIXTURE OF HAV& B',
-    displayName: 'AMBA MIXTURE OF HAV& B',
+    brand: 'KG1-Root Care',
+    displayName: 'KG1-Root Care',
     specification: 'Mixture of Humic Acid, Amino Acid, Vitamins and Bio-chemicals (Powder)',
     category: 'Mixed Formulation',
     crops: ['Okra'],
@@ -130,8 +130,8 @@ export const PRODUCTS = [
     ]
   },
   {
-    brand: 'AMBA AMINO20%L',
-    displayName: 'AMBA AMINO20%L',
+    brand: 'KG1-Harvester',
+    displayName: 'KG1-Harvester',
     specification: 'Protein hydrolysate (Amino acids 20%) (Plant source) (Liquid)',
     category: 'Protein Hydrolysates and Amino Acids',
     crops: ['Soybean'],
@@ -147,8 +147,8 @@ export const PRODUCTS = [
     ]
   },
   {
-    brand: 'AMBA PLANT 27%P',
-    displayName: 'AMBA PLANT 27%P',
+    brand: 'KG1-Plant Protein',
+    displayName: 'KG1-Plant Protein',
     specification: 'Protein hydrolysate 27% (Plant Source) (Powder)',
     category: 'Protein Hydrolysates and Amino Acids',
     crops: ['Paddy'],
@@ -162,8 +162,8 @@ export const PRODUCTS = [
     ]
   },
   {
-    brand: 'AMBA AGRO S-A-A-8.3% GR',
-    displayName: 'AMBA AGRO S-A-A-8.3% GR',
+    brand: 'KG1-Plant ABA',
+    displayName: 'KG1-Plant ABA',
     specification: 'S- Abscisic acid (8.3%) (Granule)',
     category: 'Anti-transpirant',
     crops: ['Wheat', 'Rice'],
@@ -176,8 +176,8 @@ export const PRODUCTS = [
     ]
   },
   {
-    brand: 'AMBA BROMO',
-    displayName: 'AMBA BROMO',
+    brand: 'KG1-IndoBromax',
+    displayName: 'KG1-IndoBromax',
     specification: '2- Bromo- (1H)- Indole- 3 Carboxaldehyde 1 ppm (Liquid)',
     category: 'Biochemicals',
     crops: ['Tomato'],
@@ -190,8 +190,8 @@ export const PRODUCTS = [
     ]
   },
   {
-    brand: 'AMBA SEAWEED 35%P',
-    displayName: 'AMBA SEAWEED 35%P',
+    brand: 'KG1-CNRG',
+    displayName: 'KG1-CNRG',
     specification: 'Seaweed(Sargassum wightii) extract 35% (Powder)',
     category: 'Seaweed Extract',
     crops: ['Chilli'],
@@ -206,59 +206,51 @@ export const PRODUCTS = [
 ];
 
 export const SLUG_TO_BRAND = {
-  // Default product aliases map to AMBA HUMATE 49% P
-  'Kalpam': 'AMBA HUMATE 49% P',
-  'kalpam': 'AMBA HUMATE 49% P',
-  'KALPAM': 'AMBA HUMATE 49% P',
+  // Default product aliases map to KG1-Kaveri Gold
+  'Kalpam': 'KG1-Kaveri Gold',
+  'kalpam': 'KG1-Kaveri Gold',
+  'KALPAM': 'KG1-Kaveri Gold',
   // Support canonical and requested alias
-  'Kalpamas': 'AMBA HUMATE 49% P',
-  // AMBA HUMI 51% G aliases
-  'AMBA HUMI 51% G': 'AMBA HUMI 51% G',
-  'AMBA%20HUMI%2051%25%20G': 'AMBA HUMI 51% G',
-  'amba humi 51% g': 'AMBA HUMI 51% G',
-  // AMBA HUMI & FULI 76%P aliases
-  'AMBA HUMI & FULI 76%P': 'AMBA HUMI & FULI 76%P',
-  'AMBA%20HUMI%20%26%20FULI%2076%25P': 'AMBA HUMI & FULI 76%P',
-  'amba humi & fuli 76%p': 'AMBA HUMI & FULI 76%P',
-  // AMBA HUMALITE 82% P aliases
-  'AMBA HUMALITE 82% P': 'AMBA HUMALITE 82% P',
-  'AMBA%20HUMALITE%2082%25%20P': 'AMBA HUMALITE 82% P',
-  'amba humalite 82% p': 'AMBA HUMALITE 82% P',
-  // AMBA HUMI & FULI 85% P aliases
-  'AMBA HUMI & FULI 85% P': 'AMBA HUMI & FULI 85% P',
-  'AMBA%20HUMI%20%26%20FULI%2085%25%20P': 'AMBA HUMI & FULI 85% P',
-  'amba humi & fuli 85% p': 'AMBA HUMI & FULI 85% P',
-  // AMBA HUMI-40%P aliases
-  'AMBA HUMI-40%P': 'AMBA HUMI-40%P',
-  'AMBA%20HUMI-40%25P': 'AMBA HUMI-40%P',
-  'amba humi-40%p': 'AMBA HUMI-40%P',
-  // AMBA HUMI & FULI 25%-L aliases
-  'AMBA HUMI & FULI 25%-L': 'AMBA HUMI & FULI 25%-L',
-  'AMBA%20HUMI%20%26%20FULI%2025%25-L': 'AMBA HUMI & FULI 25%-L',
-  'amba humi & fuli 25%-l': 'AMBA HUMI & FULI 25%-L',
-  'AMBA MIXTURE OF HAV& B': 'AMBA MIXTURE OF HAV& B',
-  'AMBA%20MIXTURE%20OF%20HAV%26%20B': 'AMBA MIXTURE OF HAV& B',
-  'amba mixture of hav& b': 'AMBA MIXTURE OF HAV& B',
-  // AMBA AMINO20%L aliases
-  'AMBA AMINO20%L': 'AMBA AMINO20%L',
-  'AMBA%20AMINO20%25L': 'AMBA AMINO20%L',
-  'amba amino20%l': 'AMBA AMINO20%L',
-  // AMBA PLANT 27%P aliases
-  'AMBA PLANT 27%P': 'AMBA PLANT 27%P',
-  'AMBA%20PLANT%2027%25P': 'AMBA PLANT 27%P',
-  'amba plant 27%p': 'AMBA PLANT 27%P',
-  // AMBA SEAWEED 35%P aliases
-  'AMBA SEAWEED 35%P': 'AMBA SEAWEED 35%P',
-  'AMBA%20SEAWEED%2035%25P': 'AMBA SEAWEED 35%P',
-  'amba seaweed 35%p': 'AMBA SEAWEED 35%P',
-  // AMBA AGRO S-A-A-8.3% GR aliases
-  'AMBA AGRO S-A-A-8.3% GR': 'AMBA AGRO S-A-A-8.3% GR',
-  'AMBA%20AGRO%20S-A-A-8.3%25%20GR': 'AMBA AGRO S-A-A-8.3% GR',
-  'amba agro s-a-a-8.3% gr': 'AMBA AGRO S-A-A-8.3% GR',
-  // AMBA BROMO aliases
-  'AMBA BROMO': 'AMBA BROMO',
-  'AMBA%20BROMO': 'AMBA BROMO',
-  'amba bromo': 'AMBA BROMO'
+  'Kalpamas': 'KG1-Kaveri Gold',
+  // KG1-Kaveri Gold
+  'KG1-Kaveri Gold': 'KG1-Kaveri Gold',
+  'kg1-kaveri gold': 'KG1-Kaveri Gold',
+  // KG1-Multi Granules
+  'KG1-Multi Granules': 'KG1-Multi Granules',
+  'kg1-multi granules': 'KG1-Multi Granules',
+  // KG1-Magic
+  'KG1-Magic': 'KG1-Magic',
+  'kg1-magic': 'KG1-Magic',
+  // KG1-HUMI Pro
+  'KG1-HUMI Pro': 'KG1-HUMI Pro',
+  'kg1-humi pro': 'KG1-HUMI Pro',
+  // KG1-Green Max
+  'KG1-Green Max': 'KG1-Green Max',
+  'kg1-green max': 'KG1-Green Max',
+  // KG1-Power King
+  'KG1-Power King': 'KG1-Power King',
+  'kg1-power king': 'KG1-Power King',
+  // KG1-Power Plus
+  'KG1-Power Plus': 'KG1-Power Plus',
+  'kg1-power plus': 'KG1-Power Plus',
+  // KG1-Root Care
+  'KG1-Root Care': 'KG1-Root Care',
+  'kg1-root care': 'KG1-Root Care',
+  // KG1-Harvester
+  'KG1-Harvester': 'KG1-Harvester',
+  'kg1-harvester': 'KG1-Harvester',
+  // KG1-Plant Protein
+  'KG1-Plant Protein': 'KG1-Plant Protein',
+  'kg1-plant protein': 'KG1-Plant Protein',
+  // KG1-CNRG
+  'KG1-CNRG': 'KG1-CNRG',
+  'kg1-cnrg': 'KG1-CNRG',
+  // KG1-Plant ABA
+  'KG1-Plant ABA': 'KG1-Plant ABA',
+  'kg1-plant aba': 'KG1-Plant ABA',
+  // KG1-IndoBromax
+  'KG1-IndoBromax': 'KG1-IndoBromax',
+  'kg1-indobromax': 'KG1-IndoBromax'
 };
 
 export function findProductBySlug(slug) {

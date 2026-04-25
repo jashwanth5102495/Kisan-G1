@@ -8,8 +8,8 @@ export default function App() {
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    const DEFAULT_ALIAS = 'Kalpamas';
-    const DEFAULT_ALIASES = new Set(['Kalpamas', 'Kalpam', 'KALPAM', 'kalpam']);
+    const DEFAULT_ALIAS = 'KG1-Kaveri Gold';
+    const DEFAULT_ALIASES = new Set(['KG1-Kaveri Gold', 'Kalpamas', 'Kalpam', 'KALPAM', 'kalpam']);
     const current = window.location.pathname || '/';
     const rawPath = current.replace(/^\//, '');
     const effectivePath = rawPath || DEFAULT_ALIAS;
@@ -189,20 +189,34 @@ export default function App() {
           <StarBorder as="div" className="w-full" color="cyan" speed="5s" thickness={2}>
             <div className="flex items-start">
               <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-[#e8d8a6]/25 text-[#e8d8a6] mr-3 shadow-inner">
-                <span className="text-lg">🏭</span>
+                <span className="text-lg">🚢</span>
               </div>
               <div className="flex-1">
-                <div className="text-[#d9c98f] text-sm">Imported And Marketed By:</div>
-                <div className="Comp text-white/90 text-sm sm:text-base font-semibold">Amba Agro Company</div>
-                <div className="text-white/90 text-sm sm:text-base">Shop No.3, Sy.No.90/1</div>
-                <div className="text-white/90 text-sm sm:text-base">Kamat Layout, Bappa Grama Post Office</div>
-                <div className="text-white/90 text-sm sm:text-base">Machohalli, Bengaluru, Bengaluru Urban</div>
-                <div className="text-white/90 text-sm sm:text-base">Karnataka - 560091</div>
-                <div className="text-white/90 text-sm sm:text-base">Phone: 9380676778</div>
-                <div className="text-white/90 text-sm sm:text-base">E-mail: ambaagro76@gmail.com</div>
+                <div className="text-[#d9c98f] text-sm">Imported By:</div>
+                <div className="text-white/90 text-sm sm:text-base font-semibold">Amba Agro Company</div>
+                <div className="text-white/90 text-sm sm:text-base">Bengaluru, Bengaluru Urban</div>
+                <div className="text-white/90 text-sm sm:text-base">Karnataka</div>
               </div>
             </div>
           </StarBorder>
+
+          <StarBorder as="div" className="w-full" color="cyan" speed="5s" thickness={2}>
+            <div className="flex items-start">
+              <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-[#e8d8a6]/25 text-[#e8d8a6] mr-3 shadow-inner">
+                <span className="text-lg">🏭</span>
+              </div>
+              <div className="flex-1">
+                <div className="text-[#d9c98f] text-sm">Marketed By:</div>
+                <div className="text-white/90 text-sm sm:text-base font-semibold">Kisan G1 Agro Products</div>
+                <div className="text-white/90 text-sm sm:text-base">Ground Floor, No.388/199, Mumbai Bengaluru Highway</div>
+                <div className="text-white/90 text-sm sm:text-base">Near Lalitha Mahal Convention Hall, Adakamaranahalli</div>
+                <div className="text-white/90 text-sm sm:text-base">Bengaluru Urban, Karnataka - 562162</div>
+                <div className="text-white/90 text-sm sm:text-base">Phone: 9019523463</div>
+                <div className="text-white/90 text-sm sm:text-base">E-mail: kg1agroproducts@gmail.com</div>
+              </div>
+            </div>
+          </StarBorder>
+
           <StarBorder as="div" className="w-full" color="cyan" speed="5s" thickness={2}>
             <div className="flex items-start">
               <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-[#e8d8a6]/25 text-[#e8d8a6] mr-3 shadow-inner">
@@ -210,7 +224,7 @@ export default function App() {
               </div>
               <div className="flex-1">
                 <div className="text-[#d9c98f] text-sm">Customer Care</div>
-                <div className="text-white/90 text-sm sm:text-base">9380676778</div>
+                <div className="text-white/90 text-sm sm:text-base">9019523463</div>
               </div>
             </div>
           </StarBorder>
