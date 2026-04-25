@@ -10,8 +10,12 @@ export const PRODUCTS = [
     dosage: ['One soil application at 1 kg/ha'], 
     gazette: 'S.O. 3922(E)  12th  September, 2024', 
     composition: [
-      '(i) Humic Acid per cent. by weight minimum 21', 
-      '(ii) pH (1% aqueous solution) 6.0-8.0'
+      '(i) Potassium humate (Source: Leonardite) per cent. by weight, minimum 49',
+      '(ii) Silwet power (adjuvant) per cent. by weight, maximum 0.5', 
+'(iii) Carboxymethyl cellulose per cent. by weight, maximum 1.0', 
+'(iv) Maltodextrin powder per cent. by weight QS', 
+'(v) Total (per cent.) 100'
+
     ] 
   },
   {
@@ -199,7 +203,7 @@ export const PRODUCTS = [
     gazette: 'S.O. 3742(E)   13th August, 2025',
     composition: [
       '(i) Seaweed (Sargassum wightii) extract per cent. by weight, minimum 35',
-      '(ii) Bentonite per cent. by weight QS',
+      '(ii) Dextrin per cent. by weight, maximum QS',
       '(iii) Total (per cent.) 100'
     ]
   },
